@@ -17,7 +17,7 @@ A [Grape](http://github.com/ruby-grape/grape) API mounted on Rack.
 See
 ---
 
-[Deployed on Heroku](http://grape-on-rack.herokuapp.com/).
+[Deployed on Heroku](https://redbox-api.herokuapp.com/).
 
 Run
 ---

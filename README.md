@@ -1,10 +1,5 @@
-Grape API on Rack
+RedBox Grape API on Rack
 =================
-
-[![Build Status](https://travis-ci.org/ruby-grape/grape-on-rack.svg?branch=master)](https://travis-ci.org/ruby-grape/grape-on-rack)
-[![Dependency Status](https://gemnasium.com/ruby-grape/grape-on-rack.svg)](https://gemnasium.com/ruby-grape/grape-on-rack)
-[![Code Climate](https://codeclimate.com/github/ruby-grape/grape-on-rack.svg)](https://codeclimate.com/github/ruby-grape/grape-on-rack)
-
 A [Grape](http://github.com/ruby-grape/grape) API mounted on Rack.
 
 * [ping](api/ping.rb): a hello world example that returns a JSON document
@@ -22,7 +17,7 @@ A [Grape](http://github.com/ruby-grape/grape) API mounted on Rack.
 See
 ---
 
-There's a deployed [grape-on-rack on Heroku](http://grape-on-rack.herokuapp.com/).
+[Deployed on Heroku](http://grape-on-rack.herokuapp.com/).
 
 Run
 ---

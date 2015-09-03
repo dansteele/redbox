@@ -4,7 +4,7 @@ describe 'Grape on RACK', js: true, type: :feature do
   context 'homepage' do
     it 'displays index.html page' do
       visit '/'
-      expect(title).to eq('Rack Powers Web APIs')
+      expect(title).to eq('Redbox')
     end
     context 'ring' do
       before :each do
@@ -27,14 +27,6 @@ describe 'Grape on RACK', js: true, type: :feature do
     end
     it 'displays 404 page' do
       expect(title).to eq('Page Not Found')
-    end
-  end
-  context 'exception' do
-    before :each do
-      visit '/api/raise'
-    end
-    it 'displays 500 page' do
-      expect(title).to eq('Unexpected Error')
     end
   end
   context 'curl' do
